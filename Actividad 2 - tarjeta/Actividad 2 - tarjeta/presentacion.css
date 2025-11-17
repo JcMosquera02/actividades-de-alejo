@@ -1,0 +1,48 @@
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenedor-flex section {
+  max-width: 800px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid black;
+  text-align: left;
+}
+main {
+  flex: 1;
+  margin-bottom:500px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
